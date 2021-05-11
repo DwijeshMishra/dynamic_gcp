@@ -2,7 +2,7 @@
 
 ansible_user: dwijeshm3
 
-ansible_password: 7drhs8q_)3L-\\Z 
+ansible_password: demo
 
 ansible_connection: winrm
 
