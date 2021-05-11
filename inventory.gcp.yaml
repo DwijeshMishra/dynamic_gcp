@@ -1,0 +1,15 @@
+---
+plugin: gcp_compute
+projects:
+  - asnbile 
+auth_kind: serviceaccount
+filters: []
+hostnames:
+   - name
+keyed_groups:
+   - key : zone 
+groups:
+   ansible_nodes: "'windowsdwijesh' in name"      
+
+regions: us-central1
+service_account_file: asnbile-5e0d684b3cbe.json
